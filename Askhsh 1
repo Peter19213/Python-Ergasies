@@ -1,0 +1,25 @@
+file=open("PR ASKHSH1.txt","r")
+words=file.read()
+words=words.split()
+print(words)
+fonienta="ayeuio"
+for w in words:
+    print(len(w))
+     for line in f:
+        line=line.replace('.',' ').replace(',',' ')
+        for word in line.lower().split():
+            key = word.rstrip()
+            c[key] = c.get(key, 0) + 1
+metr=' '
+print(len(metr))
+for key in sorted(c):
+    
+    #print(key,'\t\t',c[key])
+    if len(key)>=len(metr):
+        metr=key
+        print(metr,'*',len(metr))
+        
+        for ch in range(len(metr) - 1, -1, -1):
+           print(metr[ch], end=" ")
+        print('\n')      
+#print(c)
