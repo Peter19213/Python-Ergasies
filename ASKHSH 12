@@ -1,0 +1,6 @@
+from datetime import date
+d1=date.today()
+start_date = date(2020, 2, 26)
+end_date = date(2031, 7, 12)
+duration = (end_date-start_date).days
+print(start_date, end_date, duration)
